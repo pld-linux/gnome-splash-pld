@@ -2,7 +2,7 @@ Summary:	GNOME splash screen
 Summary(pl):	Ekran startowy GNOME
 Name:		gnome-splash-pld
 Version:	1.99
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://krzak.linux.net.pl/gnome/pld-gnome-splash.png
