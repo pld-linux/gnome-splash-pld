@@ -15,17 +15,18 @@ BuildArch:      noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Default GNOME splash screen for PLD
+Default GNOME splash screen for PLD.
 
 %description -l pl
-Standardowy ekran startowy GNOME dla PLD
+Standardowy ekran startowy GNOME dla PLD.
 
 %prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_pixmapsdir}/splash
-cp -f %{SOURCE0} $RPM_BUILD_ROOT%{_pixmapsdir}/splash/gnome-splash.png
+
+install %{SOURCE0} $RPM_BUILD_ROOT%{_pixmapsdir}/splash/gnome-splash.png
 
 %clean
 rm -rf $RPM_BUILD_ROOT
