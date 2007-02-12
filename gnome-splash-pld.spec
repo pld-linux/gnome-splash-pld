@@ -1,5 +1,5 @@
 Summary:	GNOME splash screen
-Summary(pl):	Ekran startowy GNOME
+Summary(pl.UTF-8):   Ekran startowy GNOME
 Name:		gnome-splash-pld
 Version:	1.99
 Release:	2
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Default GNOME splash screen for PLD.
 
-%description -l pl
+%description -l pl.UTF-8
 Standardowy ekran startowy GNOME dla PLD.
 
 %prep
