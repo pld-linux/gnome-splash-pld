@@ -1,5 +1,5 @@
 Summary:	GNOME splash screen
-Summary(pl.UTF-8):   Ekran startowy GNOME
+Summary(pl.UTF-8):	Ekran startowy GNOME
 Name:		gnome-splash-pld
 Version:	1.99
 Release:	2
